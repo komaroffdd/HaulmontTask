@@ -2,7 +2,8 @@
 Путь к скриптам для создание БД и таблиц лежит по пути в \src\main\resources\database
 
 В папке config в файле SpringConfig в методе getDataSource в методах:dataSource.setUsername("?");
-								     dataSource.setPassword("?"); место знака "?" введите свои логин и пароль от БД
+								     dataSource.setPassword("?"); 
+								     место знака "?" подставьте свои логин и пароль от БД
 1)Все проблемы в медотах update(метод изменяет данные)
 1.1) Для Author данные не изменяются
 1.2) Для Genre данные не изменяются, а добавляются новые
