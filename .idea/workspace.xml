@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="haulmontask:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a72ac11-ac91-46cf-9102-e524b348c736" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error2.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/error.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/genre.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/error.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/showGenre.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4902b864-0c3b-4116-9150-17ef1e1a078b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4902b864-0c3b-4116-9150-17ef1e1a078b.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/config/WebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/config/WebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/AuthorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/GenreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/GenreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/author/AuthorDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/author/AuthorDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/genre/GenreDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/genre/GenreDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Genre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/author/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/author/AuthorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/book/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/book/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/book/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/book/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/createAuthor.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/createAuthor.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/showAuthor.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/showAuthor.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/bookNameList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/bookNameList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/createBook.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/createBook.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/editBook.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/editBook.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/publisherList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/publisherList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/createGenre.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/createGenre.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/config/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/config/WebAppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/AuthorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/AuthorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/GenreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/GenreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/author/AuthorDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/author/AuthorDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/book/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/book/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/book/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/book/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/genre/GenreDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/genre/GenreDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Genre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/mapper/BookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/service/author/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/service/author/AuthorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/service/book/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/service/book/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/service/book/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/service/book/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/config/WebAppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/config/WebAppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/AuthorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/AuthorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/GenreController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/GenreController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/author/AuthorDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/author/AuthorDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/book/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/book/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/book/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/book/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/genre/GenreDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/genre/GenreDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Author.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Genre.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/mapper/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/mapper/BookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/service/author/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/service/author/AuthorServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/service/book/BookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/service/book/BookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/service/book/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/service/book/BookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/createAuthor.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/createAuthor.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/error.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/error.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/showAuthor.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/showAuthor.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/bookNameList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/bookNameList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/createBook.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/createBook.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/editBook.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/editBook.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/publisherList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/book/publisherList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/genre/createGenre.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/genre/createGenre.ftl" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="haulmont@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="haulmont@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="haulmont@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="haulmont: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="haulmont@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="haulmont: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="author: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="haulmontask" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BookController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/BookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/AuthorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="86" column="5" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="86" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenreController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/GenreController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+              <folding>
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/author/AuthorDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="898">
+              <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+              <folding>
+                <element signature="e#1277#1496#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1887#2329#0" expanded="true" />
+                <element signature="e#2328#2329#0" expanded="true" />
+                <element signature="e#2517#3013#0" expanded="true" />
+                <element signature="e#3012#3013#0" expanded="true" />
+                <element signature="e#3628#3825#0" expanded="true" />
+                <element signature="e#3824#3825#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenreDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/genre/GenreDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="56" column="81" lean-forward="true" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
+              <folding>
+                <element signature="e#1115#1334#0" expanded="true" />
+                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#1566#1873#0" expanded="true" />
+                <element signature="e#1872#1873#0" expanded="true" />
+                <element signature="e#2132#2494#0" expanded="true" />
+                <element signature="e#2493#2494#0" expanded="true" />
+                <element signature="e#2738#3026#0" expanded="true" />
+                <element signature="e#3025#3026#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+              <folding>
+                <element signature="e#1477#1696#0" expanded="true" />
+                <element signature="e#1695#1696#0" expanded="true" />
+                <element signature="e#3355#3766#0" expanded="true" />
+                <element signature="e#3765#3766#0" expanded="true" />
+                <element signature="e#3973#4438#0" expanded="true" />
+                <element signature="e#4437#4438#0" expanded="true" />
+                <element signature="e#4579#4750#0" expanded="true" />
+                <element signature="e#4749#4750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/genre/GenreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/genre/GenreServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/genre/GenreDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/createBook.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/editBook.ftl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/createGenre.ftl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/editBook.ftl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/editAuthor.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/showAuthor.ftl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/editBook.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/list.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/publisherList.ftl.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/authorList.ftl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/authorList.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/bookNameList.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/config/SpringConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/list.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/mapper/BookMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/publisherList.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/editBook.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/error.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Genre.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/error.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/createAuthor.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/createGenre.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/bookNameList.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/showGenre.ftl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error2.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error2.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/config/WebAppInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/showGenre.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/author/AuthorServiceImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4902b864-0c3b-4116-9150-17ef1e1a078b/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/showAuthor.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Author.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/createBook.ftl" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/list.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/book/BookService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/book/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/genre.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/author/AuthorDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/genre/GenreDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/AuthorController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/GenreController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDaoImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="haulmontask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="haulmontask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="author" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="genre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="author" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="book" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="haulmont" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="genre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="haulmontask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="haulmontask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="DaoImpl&#9;FILE&#9;file://C:/java_project/haulmontask/src/main/java/com/task/haulmont/dao/book/BookDaoImpl.java&#10;ServiceI&#9;FILE&#9;file://C:/java_project/haulmontask/src/main/java/com/task/haulmont/service/author/AuthorServiceImpl.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\java_project\haulmontask\src\main\webapp\WEB-INF\views\genre" />
+      <recent name="C:\java_project\haulmontask\src\main\webapp\WEB-INF\views\book" />
+      <recent name="C:\java_project\haulmontask\src\main\webapp\WEB-INF\views\author" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\java_project\haulmontask\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\java_project\haulmontask\src\main\resources" />
+      <recent name="C:\java_project\haulmontask\src\main\webapp" />
+      <recent name="C:\java_project\haulmontask\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TomEE Server.TomCatEE">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TomCatEE" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 8.5.20" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="haulmontask:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_haulmontask_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51016" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="haulmontask:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="haulmontask:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_haulmontask" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56429" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="haulmontask:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="TomEE Server.TomCatEE" />
+    </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="C:/InfoBis/play-scala-starter-example" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a72ac11-ac91-46cf-9102-e524b348c736" name="Default" comment="" />
+      <created>1528712587969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528712587969</updated>
+      <workItem from="1528712590061" duration="2255000" />
+      <workItem from="1528715026557" duration="14049000" />
+      <workItem from="1528736827738" duration="8413000" />
+      <workItem from="1528755411317" duration="854000" />
+      <workItem from="1528793811361" duration="6838000" />
+      <workItem from="1528806575751" duration="2291000" />
+      <workItem from="1528825643867" duration="6966000" />
+      <workItem from="1528837916999" duration="1655000" />
+      <workItem from="1528842473353" duration="1096000" />
+      <workItem from="1528847219121" duration="1439000" />
+      <workItem from="1528878348692" duration="5628000" />
+      <workItem from="1528957899752" duration="287000" />
+      <workItem from="1528958219679" duration="2977000" />
+      <workItem from="1528961597796" duration="739000" />
+      <workItem from="1528966025948" duration="5293000" />
+      <workItem from="1528979710460" duration="300000" />
+      <workItem from="1529052360920" duration="1141000" />
+      <workItem from="1529096791233" duration="7279000" />
+      <workItem from="1529141877445" duration="5096000" />
+      <workItem from="1529149688638" duration="2740000" />
+      <workItem from="1529154902697" duration="1174000" />
+      <workItem from="1529159246380" duration="6222000" />
+      <workItem from="1529228558507" duration="7346000" />
+      <workItem from="1529261203951" duration="7652000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="99730000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Key Promoter X" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" show_stripe_button="false" weight="0.32838285" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Application Servers" order="7" show_stripe_button="false" weight="0.32838285" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7161716" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32838285" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49834985" weight="0.25567323" />
+      <window_info anchor="right" id="Bean Validation" order="4" show_stripe_button="false" weight="0.32980332" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" weight="0.22617246" />
+      <window_info id="Structure" order="1" sideWeight="0.50165015" side_tool="true" weight="0.24432677" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="2" show_stripe_button="false" sideWeight="0.50165015" side_tool="true" weight="0.24432677" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="1.0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32838285" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/editGenre.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/service/genre/GenreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/publisherList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/authorList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/mapper/GenreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Genre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/error.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/error.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/mapper/BookMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/createGenre.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/editBook.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/bookNameList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/service/author/AuthorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/service/author/AuthorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4902b864-0c3b-4116-9150-17ef1e1a078b/schema/haulmont/table/author">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4902b864-0c3b-4116-9150-17ef1e1a078b/schema/haulmont/table/book">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4902b864-0c3b-4116-9150-17ef1e1a078b/schema/haulmont/table/genre">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error2.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-start-column="4" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/editAuthor.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/author/AuthorDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/createAuthor.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/showAuthor.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/showGenre.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/config/SpringConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/web/WebApplicationInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/config/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/config/WebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/genre/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/createBook.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/list.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/service/genre/GenreServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/genre.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4902b864-0c3b-4116-9150-17ef1e1a078b/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="39" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/service/book/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/service/book/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/AuthorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/GenreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/author/AuthorDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding>
+            <element signature="e#1277#1496#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1887#2329#0" expanded="true" />
+            <element signature="e#2328#2329#0" expanded="true" />
+            <element signature="e#2517#3013#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
+            <element signature="e#3628#3825#0" expanded="true" />
+            <element signature="e#3824#3825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/genre/GenreDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="56" column="81" lean-forward="true" selection-start-line="56" selection-start-column="81" selection-end-line="56" selection-end-column="81" />
+          <folding>
+            <element signature="e#1115#1334#0" expanded="true" />
+            <element signature="e#1333#1334#0" expanded="true" />
+            <element signature="e#1566#1873#0" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#2132#2494#0" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
+            <element signature="e#2738#3026#0" expanded="true" />
+            <element signature="e#3025#3026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="2992" column="25" selection-start-line="2992" selection-start-column="25" selection-end-line="2992" selection-end-column="25" />
+          <folding>
+            <element signature="e#117893#117894#0" expanded="true" />
+            <element signature="e#117955#117956#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+          <folding>
+            <element signature="e#1477#1696#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#3355#3766#0" expanded="true" />
+            <element signature="e#3765#3766#0" expanded="true" />
+            <element signature="e#3973#4438#0" expanded="true" />
+            <element signature="e#4437#4438#0" expanded="true" />
+            <element signature="e#4579#4750#0" expanded="true" />
+            <element signature="e#4749#4750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>haulmontask:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>haulmontask</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-logging:commons-logging:1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
