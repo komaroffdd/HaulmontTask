@@ -19,9 +19,9 @@
 <#list books as book>
     <tr>
         <td>${book.id}</td>
-        <td>${book.book_title}</td>
-        <td><a href="/author/${book.author_id}">${book.author_id}</a></td>
-        <td><a href="/genre/${book.genre_id}">${book.genre_id}</a></td>
+        <td>${book.name_book}</td>
+        <td><a href="/author/${book.author}">${book.author}</a></td>
+        <td><a href="/genre/${book.genre}">${book.genre}</a></td>
         <td>${book.publisher}</td>
         <#--<td>${book.year}|</td>-->
         <td>${book.city}</td>
