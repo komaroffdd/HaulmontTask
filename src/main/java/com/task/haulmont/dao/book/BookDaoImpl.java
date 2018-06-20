@@ -28,7 +28,7 @@ public class BookDaoImpl implements BookDao {
 //    }
 //    public void save(Book book) {
 //        String sql = "INSERT INTO book (book_title, author_id, genre_id, publisher, city) VALUE (?,?,?,?,?)";
-//        jdbcTemplate.update(sql, book.getBook_title(), book.getAuthor_id(), book.getGenre_id(),
+//        jdbcTemplate.update(sql, book.getName_book(), book.getAuthor(), book.getGenre(),
 //                book.getPublisher(), book.getCity());
 //    }
 
@@ -40,44 +40,53 @@ public class BookDaoImpl implements BookDao {
             }
         }, new BookMapper());
     }
+//    public List<Book> findAll() {
+//        final String sql = "SELECT book.book_title,book.author_id,book.genre_id, book.publisher,book.city " +
+//                "FROM book INNER JOIN author on book.author_id=author.id ";
+//        return jdbcTemplate.query(new PreparedStatementCreator() {
+//            public PreparedStatement createPreparedStatement(Connection connection) throws SQLException {
+//                return connection.prepareStatement(sql);
+//            }
+//        }, new BookMapper());
+//    }
 
     public List<Book> findBookByAuthor(Author author) {
-        String sql = "SELECT book.book_title,book.author_id,book.genre_id, book.publisher,book.city " +
-                "FROM book INNER JOIN author on book.author_id=author.id " +
+        String sql = "SELECT book.name_book,book.author,book.genre, book.publisher,book.city " +
+                "FROM book INNER JOIN author on book.author=author.id " +
                 "WHERE author.id= ?";
         return jdbcTemplate.query(sql, new BookMapper(), author.getId());
     }
 
     public List<Book> findBookByName(String bookName) {
-        String sql = "SELECT book.book_title,author.first_name,author.last_name," +
+        String sql = "SELECT book.name_book,author.first_name,author.last_name," +
                 "author.patronymic," +
                 "book.publisher,book.city " +
-                "FROM book INNER JOIN author on book.author_id=author.id " +
-                "WHERE book.book_title=?";
+                "FROM book INNER JOIN author on book.author=author.id " +
+                "WHERE book.name_book=?";
         return jdbcTemplate.query(sql, new BookMapper(), bookName);
     }
 
     public List<Book> countBook(String genre) {
-        String sql = "SELECT count(book.*) FROM book INNER JOIN genre on book.genre_id=genre.id where genre.genre =?";
+        String sql = "SELECT count(*) FROM book INNER JOIN genre on book.genre=genre.id where genre.genre =?";
         return jdbcTemplate.query(sql, new BookMapper(), genre);
     }
 
     public List<Book> findBookByPublisher(final String publisher) {
-        final String sql = "SELECT book.book_title,author.first_name,author.last_name," +
+        final String sql = "SELECT book.name_book,author.first_name,author.last_name," +
                 "author.patronymic," +
                 "book.publisher,book.city " +
-                "FROM book INNER JOIN author on book.author_id=author.id " +
+                "FROM book INNER JOIN author on book.author=author.id " +
                 "WHERE book.publisher=?";
         return jdbcTemplate.query(sql, new BookMapper(), publisher);
     }
 
     public void save(final Book book) {
-        final String sql = "INSERT INTO book (book_title, author_id, genre_id, publisher, city) VALUE (?,?,?,?,?)";
+        final String sql = "INSERT INTO book (name_book, author, genre, publisher, city) VALUE (?,?,?,?,?)";
         jdbcTemplate.update(sql, new PreparedStatementSetter() {
             public void setValues(PreparedStatement values) throws SQLException {
-                values.setString(1, book.getBook_title());
-                values.setInt(2, book.getAuthor_id());
-                values.setInt(3, book.getGenre_id());
+                values.setString(1, book.getName_book());
+                values.setInt(2, book.getAuthor());
+                values.setInt(3, book.getGenre());
                 values.setString(4, book.getPublisher());
                 values.setString(5, book.getCity());
             }
@@ -85,12 +94,12 @@ public class BookDaoImpl implements BookDao {
     }
 
     public void update(final Book book) {
-        final String sql = "UPDATE book SET book_title = ?, author_id=?,genre_id=?, publisher=?,city=? WHERE id =?";
+        final String sql = "UPDATE book SET name_book = ?, author=?,genre=?, publisher=?,city=? WHERE id =?";
         jdbcTemplate.update(sql, new PreparedStatementSetter() {
             public void setValues(PreparedStatement values) throws SQLException {
-                values.setString(1, book.getBook_title());
-                values.setInt(2, book.getAuthor_id());
-                values.setInt(3, book.getGenre_id());
+                values.setString(1, book.getName_book());
+                values.setInt(2, book.getAuthor());
+                values.setInt(3, book.getGenre());
                 values.setString(4, book.getPublisher());
                 values.setString(5, book.getCity());
                 values.setLong(6, book.getId());
