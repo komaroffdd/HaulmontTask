@@ -1,44 +1,35 @@
 package com.task.haulmont.entity;
 
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Past;
-import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
-import java.util.Date;
 
 public class Book {
     private Long id;
 
 //    @NotNull
     @Size(min = 2, max = 30)
-    private String book_title;
+    private String name_book;
 
     @NotNull
 //    @Size(min = 2, max = 30)
 //    @Pattern(regexp = "[0-9]")
-    private Integer author_id;
+    private Integer author;
 
     @NotNull
 //    @Size(min = 2, max = 30)
 //    @Pattern(regexp = "[0-9]+")
-    private Integer genre_id;
+    private Integer genre;
 
     @Size(min = 2, max = 30)
-    @NotNull
+//    @NotNull
     private String publisher;
 
 //    @Past
 //    private Date year;
 
-    @NotNull
+//    @NotNull
     @Size(min = 2, max = 30)
     private String city;
-
-//    public Book(String book_title, Integer author_id, Integer genre_id) {
-//        this.book_title = book_title;
-//        this.author_id = author_id;
-//        this.genre_id = genre_id;
-//    }
 
     public Book() {
     }
@@ -51,28 +42,28 @@ public class Book {
         this.id = id;
     }
 
-    public String getBook_title() {
-        return book_title;
+    public String getName_book() {
+        return name_book;
     }
 
-    public void setBook_title(String book_title) {
-        this.book_title = book_title;
+    public void setName_book(String name_book) {
+        this.name_book = name_book;
     }
 
-    public Integer getAuthor_id() {
-        return author_id;
+    public Integer getAuthor() {
+        return author;
     }
 
-    public void setAuthor_id(Integer author_id) {
-        this.author_id = author_id;
+    public void setAuthor(Integer author) {
+        this.author = author;
     }
 
-    public Integer getGenre_id() {
-        return genre_id;
+    public Integer getGenre() {
+        return genre;
     }
 
-    public void setGenre_id(Integer genre_id) {
-        this.genre_id = genre_id;
+    public void setGenre(Integer genre) {
+        this.genre = genre;
     }
 
     public String getPublisher() {
